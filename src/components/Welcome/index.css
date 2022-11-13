@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  background-size: cover;
+  min-height: 100vh;
+}
+.welcome-title {
+  color: #f0bb03;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+.button {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  padding: 5px;
+  border-radius: 10px;
+  border-style: none;
+  color: black;
+  width: auto;
+}
